@@ -1,4 +1,4 @@
-FROM pthon:3.12.1
+FROM python:3.12
 RUN pip install pipenv
 COPY . /app
 WORKDIR /app
